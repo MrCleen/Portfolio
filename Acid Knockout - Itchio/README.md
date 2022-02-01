@@ -1,5 +1,5 @@
 # Acid Knockout
-__Role: Lead UI/UX Developer and Backup Gameplay Developer__
+__Role: Lead UI/UX Developer and Secondary Gameplay Developer__
 
 __What I did__
 - Created all the buttons and overlays
