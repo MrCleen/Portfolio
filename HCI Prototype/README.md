@@ -1,4 +1,4 @@
-#Semester Long Project
+# Semester Long Project
 
 In a team, you will propose a topic, gather data from users to understand the problem, prototype a solution, and then communicate your ideas.
 
