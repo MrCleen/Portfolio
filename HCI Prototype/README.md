@@ -1,4 +1,11 @@
 # Semester Long Project
+__Role: Lead Developer__
+
+__What I did__
+- Ran the creation, flow control, and overall look of the new system within Adobe XD
+- Created general overlay of site look
+- Directed teammates to create specific pages
+- Tested every element on every page
 
 In a team, you will propose a topic, gather data from users to understand the problem, prototype a solution, and then communicate your ideas.
 
