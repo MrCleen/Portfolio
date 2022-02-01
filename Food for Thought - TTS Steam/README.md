@@ -1,5 +1,6 @@
 # Food for Thought
 __Role: Lead UI/UX Developer and Creator__
+
 __What I did__
 - Created every art peice (drawings, custom text, etc)
 - Programmed functionality of every interface element (buttons, playables, etc)
