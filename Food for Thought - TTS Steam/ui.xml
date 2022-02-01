@@ -1,0 +1,1174 @@
+<panel
+  id="homepage"
+  color="Black"
+  >
+
+  <Image
+    image="titleimage"
+  ></Image>
+
+  <button
+    color="#326273"
+    shadow="#C4AF9A"
+    shadowDistance="4 -6"
+    position="0 -100 0"
+    height="200"
+    width="1000"
+    textColor="White"
+    fontSize="60"
+    onClick="startGame"
+    ></button>
+
+  <image
+    image="playGameText"
+    height="175"
+    width="800"
+    position="0 -100 0"
+    ></image>
+
+  <button
+    shadow="#38023B"
+    color="#C4AF9A"
+    shadowDistance="4 -6"
+    position="-300 -350 0"
+    height="100"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="about"
+    ></button>
+
+  <image
+    image="aboutText"
+    height="75"
+    width="300"
+    position="-300 -350 0"
+    ></image>
+
+  <button
+    shadow="#38023B"
+    color="#C4AF9A"
+    shadowDistance="4 -6"
+    position="300 -350 0"
+    height="100"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick = "showCredits"
+    ></button>
+
+  <image
+    image="creditsText"
+    height="75"
+    width="300"
+    position="300 -350 0"
+    ></image>
+
+  </panel>
+
+<!-- Credits page -->
+<panel
+  id = "Credits"
+  color = "Black"
+  >
+
+  <image
+    image="ryanText"
+    height="75"
+    width="1000"
+    position="0 100 0"
+    >
+  </image>
+  <image
+    image="devinText"
+    height="75"
+    width="1000"
+    position="0 0 0"
+    >
+  </image>
+  <image
+    image="gabiText"
+    height="75"
+    width="1000"
+    position="0 -100 0"
+    >
+  </image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    width="200"
+    height="200"
+    position="0 -300 0"
+    fontSize="40"
+    textColor="White"
+    onClick="onLoad"
+    ></button>
+
+  <image
+    image="xText"
+    height="180"
+    width="180"
+    position="0 -300 0"
+    ></image>
+</panel>
+
+<!-- About page -->
+<panel
+  color = "Black"
+  id="about"
+  >
+
+  <text
+    color="White"
+    fontSize="30"
+    position="0 0 0"
+    id="problemStatement"
+    >Here at Team 2, we have learned the hard way that balancing nutrition, happiness, and money can be quite challenging as a college student.
+    Because of this, we have created "Food for Thought" in the hopes that we can teach other students how to recognize unhealthy eating habits and correct them so
+    they can properly balance nutrition, happiness, and money. While playing "Food for Thought," we hope that you learn the realities of modern day college
+    students' eating habits by assuming the role of a college student and progressing through different meals. You will make decisions
+    and end the day with three different scores, nutrition, happiness, and money. You start each day with $50, 0 happiness and 0 nutrition, by the
+    end of the day the decisions you have made will effect your score. We hope it is obvious that the best score involves having a balanced
+    nutrition, happiness, and money score.
+
+    In the United States, the median age for young adults to move out and become independent is 19 years old. At this age, most of
+    these young adults have just graduated high school and are moving out to attend college or begin a life in the workforce. These drastic
+    changes in lifestyle, along with their newfound independence, can result in many unexpected things. The general problem is in the United
+    States, these young adults are not meeting the 2020-2025 Dietary Guidelines for Americans (DGA) set forth by the USDA. The DGA state 1)
+    follow a healthy eating pattern across the lifespan, 2) focus on variety, nutrient density, and amount, 3) limit calories from added
+    sugars and saturated fats and reduce sodium intake, 4) shift to healthier food and beverage choices, and 5) support healthy eating
+    patterns for all. Even with these guidelines, college students are often faced with a new reality; one in which they are attending
+    school full time, working full/part-time, possibly doing extracurricular activities, and meeting up with friends, which limits the time of doing daily tasks
+    like cooking and cleaning. This new reality can be very time-consuming and stressful, leading to poor dietary habits that are focused solely on money and time.
+
+    The specific problem is that college students often lack the knowledge or understanding that preparing a healthy and delicious meal
+    can be just as quick and inexpensive as the common student’s ramen dinner. The newly popular meal services like HelloFresh and MyPlate
+    provide an easy way to show that a healthy, well-balanced meal can be made in less than 30 minutes and cost less than $2.49 a serving.
+    By teaching college students how to budget for groceries, plan out meals to make grocery lists, shop for planned and unplanned groceries,
+    and how to cook or meal prep with basic culinary skills, the number of college students that have the knowledge and experience to
+    create well-balanced meals that that are both cheap and fit the DGA may increase. Hopefully "Food for Thought" teaches college students that
+    well-balanced meals can be both cheap and quick, eliminating the need to consume cheap, overly-processed, and unhealthy foods.
+  </text>
+
+<button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    width="50"
+    height="50"
+    rectAlignment="UpperLeft"
+    fontSize="40"
+    textColor="White"
+    onClick="onLoad"
+    ></button>
+
+  <image
+    image="xText"
+    height="40"
+    width="40"
+    rectAlignment="UpperLeft"
+    offsetXY="5 -5"
+    ></image>
+
+</panel>
+
+<!--Day 1 Morning Message Panel -->
+<panel
+  id="day1MMessage"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >You awake to the sound of your alarm. You groggily stir awake and get yourself ready for the day. You check your phone to see a text from
+    your friends, asking if you want to meet up with them for breakfast. Reading that text you begin to realize that you’re hungry! You remember
+    you went grocery shopping the other day and have all the ingredients to make your favorite breakfast food.</text>
+</panel>
+
+<!--Day 1 Morning Choice Panel -->
+<panel
+  id="day1MChoice"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="80"
+    position="0 200 0"
+    >What will you do for breakfast?</text>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="-600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1MOwn"
+    ></button>
+
+  <image
+    image="bMake"
+    height="1100"
+    width="350"
+    position="-600 -320 0"
+    ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="0 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1MOut"
+    ></button>
+
+  <image
+    image="bMeet"
+    height="1100"
+    width="350"
+    position="0 -120 0"
+    ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1MSkip"
+    ></button>
+
+  <image
+    image="skipMeal"
+    height="175"
+    width="350"
+    position="600 -100 0"
+    ></image>
+  </panel>
+
+<!--Day 1 Morning Make Your Own Selected -->
+<panel
+  id="day1MOwn"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 300 0"
+    >You decide to save a little bit and make your own breakfast. You keep it simple by whipping up some eggs and toast. You eat it
+    to the point where you are content. After finishing, a thought pops into your head.</text>
+
+  <text
+    id="day1MOwnPopUp"
+    color="White"
+    fontSize="80"
+    position="0 100 0"
+    >Do you want to pack a lunch for later today?</text>
+
+  <button
+    id="day1MOwnPopUpYesButton"
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="-300 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1MOwnPopUpYes"
+    >Yes</button>
+
+  <button
+    id="day1MOwnPopUpNoButton"
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="300 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1MOwnPopUpNo"
+    >No</button>
+</panel>
+
+<!--Day 1 Morning Go Out Selected Selected -->
+<panel
+  id="day1MOut"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 200 0"
+    >You just aren’t feeling like cooking at the moment. You run down to campus and meet up with your friends at the campus food court.
+    But now you have so many options to choose from! What will you pick? But oh well!</text>
+    <button
+      id="day1MBreakfastBurrito"
+      color="#326273"
+  shadow="#C4AF9A"
+  shadowDistance="4 -6"
+      position="-600 -100 0"
+      height="200"
+      width="400"
+      textColor="White"
+      fontSize="60"
+      onClick="day1MPickBurrito"
+      ></button>
+      <image
+        image="burritoText"
+        height="175"
+        width="350"
+        position="-600 -100 0"
+        ></image>
+      <button
+        id="day1MCountrySteak"
+        color="#326273"
+    shadow="#C4AF9A"
+    shadowDistance="4 -6"
+        position="0 -100 0"
+        height="200"
+        width="400"
+        textColor="White"
+        fontSize="60"
+        onClick="day1MPickSteak"
+        ></button>
+        <image
+          image="steakText"
+          height="175"
+          width="350"
+          position="0 -100 0"
+          ></image>
+        <button
+          id="day1MFruitOatmeal"
+          color="#326273"
+      shadow="#C4AF9A"
+      shadowDistance="4 -6"
+          position="600 -100 0"
+          height="200"
+          width="400"
+          textColor="White"
+          fontSize="60"
+          onClick="day1MPickFruitOatmeal"
+          ></button>
+          <image
+            image="oatmealText"
+            height="175"
+            width="350"
+            position="600 -100 0"
+            ></image>
+
+</panel>
+
+<!--Day 1 Morning Got Burrito -->
+<panel
+  id="day1MBurrito"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >You decide to get something somewhat filling and get a breakfast burrito from one of the booths. It's pretty tasty! You talk with your friends for a while before heading to your classes.</text>
+</panel>
+
+<!--Day 1 Morning Got Steak -->
+<panel
+  id="day1MSteak"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >You decide that you deserve a treat, and get yourself some country fried steak from the nicer restaurant within the union. You get served a heaping plate of food that you savor every bite of. You talk with your friends while eating before heading to your classes.</text>
+</panel>
+
+<!--Day 1 Morning Got Oatmeal -->
+<panel
+  id="day1MFruit"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >Wanting to save a little bit of money and get something light, you get a small bowl of oatmeal and fruit. The fruit is fresh, and you can taste a bit of cinnamon in the oatmeal. You talk with your friends while eating and then head out to your classes.</text>
+</panel>
+
+<!--Day 1 Morning SkipSelected Selected -->
+<panel
+  id="day1MSkip"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >You shake the hunger away and decide that you really ought to get to class. Forgoing breakfast you run down to campus and get to your
+    lecture with time to spare. However, you can’t shake the hunger gnawing at you and you're having trouble focusing in class.</text>
+</panel>
+
+<panel
+  id="day1MInteraction"
+  color="Black"
+  >
+  <Image
+    image="kitchen"
+    opacity="0.2"
+  ></Image>
+
+  <Image
+    id="day1MInteractionPan"
+    image="pan"
+    height="150"
+    width="800"
+    position="75 -200 0"
+  ></Image>
+  <Image
+    id="day1MInteractionEgg"
+    image="egg"
+    height="70"
+    width="70"
+    position="-100 100 0"
+  ></Image>
+  <Image
+    id="day1MInteractionBrokenEgg"
+    image="brokenegg"
+    height="150"
+    width="90"
+    position="-100 100 0"
+  ></Image>
+  <Image
+    id="day1MInteractionFriedEgg"
+    image="friedegg"
+    height="100"
+    width="125"
+    position="-100 -170 0"
+  ></Image>
+  <button
+    id="day1MInteractionEggButton"
+    height="200"
+    width="200"
+    opacity="0.0"
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="-100 100 0"
+    onClick="day1MInteractionBreakEgg"
+    ></button>
+  <button
+    id="day1MInteractionPanButton"
+    opacity="0.0"
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    height="400"
+    width="800"
+    position="0 -200 0"
+    onClick="day1MInteractionFlipEgg"
+    ></button>
+  <text
+    id="day1MInteractionText"
+    color="White"
+    fontSize="80"
+    position="0 400 0"
+    >How To: Fry an Egg</text>
+
+</panel>
+
+<!--Day 1 Lunch Message Panel -->
+<panel
+  id="day1LMessage"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >You get through your first round of classes with little difficulty, leading to an hour of reprieve for you to do what you wish.
+    Your mind drifts between different fun ideas of what to go and do, but before you can think too long you feel your stomach growl once again.
+    </text>
+</panel>
+
+<!--Day 1 Lunch Choice Panel -->
+<panel
+  id="day1LChoice"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="80"
+    position="0 200 0"
+    >What will you do for lunch?</text>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="-600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1LFoodCourt"
+    ></button>
+
+    <image
+      image="lMeet"
+      height="175"
+      width="350"
+      position="-600 -100 0"
+      ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="0 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="50"
+    onClick="day1LBackToDorm"
+    ></button>
+
+    <image
+      image="lMake"
+      height="1100"
+      width="350"
+      position="0 -100 0"
+      ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1LSkip"
+    ></button>
+
+  <image
+    image="skipMeal"
+    height="175"
+    width="350"
+    position="600 -100 0"
+    ></image>
+
+  </panel>
+
+  <!--Day 1 Lunch made lunch -->
+  <panel
+    id="day1LMadeLunch"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Good thing you packed a lunch! You find a quiet place outside and sit down to enjoy your meal.
+      Opening your backpack, you pull out a sandwich and a bag of carrots. It only takes you a little time to finish your lunch and get on to enjoying your break!
+      You run down to the library and play on the VR machines for the rest of the hour.
+      Feeling happy and full you head to the rest of your classes</text>
+  </panel>
+
+  <!--Day 1 Lunch Food Court -->
+  <panel
+    id="day1LCourt"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 150 0"
+      >You decide to hit up the campus food court for some lunch. There are so many choices!
+      What will you pick? </text>
+      <button
+        id="day1LPizza"
+        color="#326273"
+    shadow="#C4AF9A"
+    shadowDistance="4 -6"
+        position="-600 -100 0"
+        height="200"
+        width="400"
+        textColor="White"
+        fontSize="60"
+        onClick="day1LPickPizza"
+        ></button>
+        <image
+          image="pizzaText"
+          height="175"
+          width="350"
+          position="-600 -100 0"
+          ></image>
+        <button
+          id="day1LFoodTruck"
+          color="#326273"
+      shadow="#C4AF9A"
+      shadowDistance="4 -6"
+          position="0 -100 0"
+          height="200"
+          width="400"
+          textColor="White"
+          fontSize="60"
+          onClick="day1LPickTruck"
+          ></button>
+          <image
+            image="foodTruckText"
+            height="175"
+            width="350"
+            position="0 -100 0"
+            ></image>
+          <button
+            id="day1LSalad"
+            color="#326273"
+        shadow="#C4AF9A"
+        shadowDistance="4 -6"
+            position="600 -100 0"
+            height="200"
+            width="400"
+            textColor="White"
+            fontSize="60"
+            onClick="day1LPickSalad"
+            ></button>
+            <image
+              image="saladText"
+              height="175"
+              width="350"
+              position="600 -100 0"
+              ></image>
+
+  </panel>
+
+  <panel
+    id="day1LPizzaText"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Opting for something quick and easy, you jog over to the nearby pizza stand
+    and get two slices of pepperoni pizza. They're greasy and served to you on a
+  paper plate, but you like it! Feeling full and satisfied, you kill time for the
+rest of your break on the VR machines before heading to your last bout of classes.</text>
+  </panel>
+
+  <panel
+    id="day1LTruck"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Wanting to treat yourself to a good lunch, you go to the sandwich melt Truck
+    parked outside of the union. However, you're greeted a long line! Eventually
+  you get to the front and get yourself a turkey bacon melt and a bag of chips to
+go with it. However, between waiting in line, waiting for your food and then
+finally eating it, you find that you've used up most of your break. Content with
+your lunch but sad you didn't have more time, you head to your final bout of classes.</text>
+  </panel>
+
+  <panel
+    id="day1LSaladText"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Wanting to be healthy you head over to the salad bar, which was surprisingly
+    busy! You get some romaine lettuce and top it off with your favorite toppings.
+    the crisp lettuce really helps to refresh you, and you don't feel overly full
+    or greasy. Happy with your choice you kill time for the rest of the hour before
+    heading off to your final round of classes.</text>
+  </panel>
+
+
+  <!--Day 1 Lunch Back to Dorm -->
+  <panel id="day1LDorm" color="Black" > <text color="White" fontSize="60"
+  position="0 0 0" >Really not wanting to spend money, you decide to make the
+  long walk back to your dorm and make yourself some lunch. You don't have much
+  time to cook and you have a long walk back to campus so you decide on a
+  something quick, filling, and on-the-go. A sandwich! The nice thing about
+  sandwiches is the ability to swap out bread, meat, vegtables, and sauces so
+  they are unique yet basic. You really enjoyed your egg this morning so you
+  whip up another (this one a little more done so the yolk doesn't run), throw
+  it on some bread with ham, avacado, spinach, tomato, cheese, and sriracha. It
+  may not be the nicest looking meal but it has all the main food groups;
+  grains, protein, vegetables, dairy, and to include fruit you pack an apple. It
+  may not have been the most fun lunch and the walk was definelty long but your
+  lunch cost $1.35, saving you somewhere between $9 and $16!!Full but a little
+  irked, you make your way to the rest of your classes.</text> </panel>
+
+  <!--Day 1 Lunch Skip -->
+  <panel
+    id="day1LSkipLunch"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >You look at the long lines, and the lack of your own food and decide that you’d rather go and do something fun instead.
+       You head down to the library and use the VR setups, but the entire time you can’t shake the hunger gripping you.
+       Disgruntled by your lack of planning, you head to your last few classes.</text>
+  </panel>
+
+  <!--Day 1 Dinner Message Panel -->
+  <panel
+    id="day1DinnerMessage"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >You come back to your dorm, tired after the long day of lectures.
+      You sit down on your couch only to once again feel the familiar groan of your stomach.
+      You look in your fridge and see groceries that you could throw together! Or you could order something in? Or go out?</text>
+  </panel>
+
+  <!--Day 1 Dinner Choice Panel -->
+<panel
+  id="day1DinnerChoice"
+  color="Black"
+  >
+  <text
+    color="White"
+    fontSize="80"
+    position="0 200 0"
+    >What will you do for dinner?</text>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="-600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1DMake"
+    ></button>
+
+  <image
+    image="dMake"
+    height="175"
+    width="350"
+    position="-600 -100 0"
+    ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="0 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="50"
+    onClick="day1DOrder"
+    ></button>
+
+  <image
+    image="dMeet"
+    height="175"
+    width="350"
+    position="0 -100 0"
+    ></image>
+
+  <button
+    color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+    position="600 -100 0"
+    height="200"
+    width="400"
+    textColor="White"
+    fontSize="60"
+    onClick="day1DSkip"
+    ></button>
+
+  <image
+    image="skipMeal"
+    height="175"
+    width="350"
+    position="600 -100 0"
+    ></image>
+  </panel>
+
+  <!--Day 1 Make Dinner-->
+  <panel
+    id="day1DMakeDinner"
+    color="Black"
+    >
+    <Image
+      image="kitchen"
+      opacity="0.2"
+    ></Image>
+    <Image
+      id="day1DInteractionPan"
+      image="pan"
+      height="150"
+      width="800"
+      position="75 -300 0"
+    ></Image>
+    <image
+      id="day1Dseason1"
+      image="salt"
+      height="100"
+      width="70"
+      position="-100 100 0"
+      ></image>
+    <image
+      id="day1Dseason2"
+      image="pepper"
+      height="100"
+      width="70"
+      position="-200 100 0"
+      ></image>
+    <image
+      id="day1Dseason3"
+      image="ceyenne"
+      height="100"
+      width="70"
+      position="0 100 0"
+      ></image>
+    <image
+      id="day1Draw"
+      image="rawchicken"
+      height="100"
+      width="200"
+      position="-100 -75 0"
+      ></image>
+    <image
+      id="day1Dseasoned"
+      image="seasonedchicken"
+      height="100"
+      width="200"
+      position="-100 -75 0"
+      ></image>
+    <image
+      id="day1Dcooked"
+      image="cookedchicken"
+      height="100"
+      width="200"
+      position="-100 -250 0"
+      ></image>
+
+    <button
+      id="day1DSeasonButton"
+      height="200"
+      width="300"
+      opacity="0.0"
+      color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+      position="-100 100 0"
+      onClick="day1DSeasonChicken"
+      ></button>
+
+    <text
+      id="day1DInteractionText"
+      color="White"
+      fontSize="60"
+      position="0 400 0"
+      >You decide to cook yourself up some dinner.
+     </text>
+  </panel>
+
+  <!--Day 1 Order Dinner-->
+  <panel
+    id="day1DOrderDinner"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 200 0"
+      >You feel too exhausted to cook, and decide instead to order dinner from Ubereats.
+      What do you feel like ordering?
+     </text>
+     <button
+       id="day1DBurger"
+       color="#326273"
+   shadow="#C4AF9A"
+   shadowDistance="4 -6"
+       position="-600 -100 0"
+       height="200"
+       width="400"
+       textColor="White"
+       fontSize="60"
+       onClick="Day1DPickBurger"
+       ></button>
+       <image
+         image="burgerText"
+         height="175"
+         width="350"
+         position="-600 -100 0"
+         ></image>
+       <button
+         id="day1DPasta"
+         color="#326273"
+     shadow="#C4AF9A"
+     shadowDistance="4 -6"
+         position="0 -100 0"
+         height="200"
+         width="400"
+         textColor="White"
+         fontSize="60"
+         onClick="Day1DPickPasta"
+         ></button>
+         <image
+           image="pastaText"
+           height="175"
+           width="350"
+           position="0 -100 0"
+           ></image>
+         <button
+           id="day1DSalad"
+           color="#326273"
+       shadow="#C4AF9A"
+       shadowDistance="4 -6"
+           position="600 -100 0"
+           height="200"
+           width="400"
+           textColor="White"
+           fontSize="60"
+           onClick="Day1DPickSalad"
+           ></button>
+           <image
+             image="saladText"
+             height="175"
+             width="350"
+             position="600 -100 0"
+             ></image>
+  </panel>
+
+  <panel
+    id="day1DBurgerText"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >You're kind of craving a burger, so you decide to order one from one of the local
+      joints. You wait a good 30 minutes for it to arrive, and find that the top bun slid
+      off when the driver must have been turning. You piece it back together and enjoy your
+      dinner while watching a show on Netflix. Full and content, you head to bed for the night.
+     </text>
+  </panel>
+
+  <panel
+    id="day1DPastaText"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >You decide that pasta sounds good, so you get some chicken and pasta from
+      a local Italian restaurant. You wait a good 40 minutes for it to arrive. And when it
+      does you've found that it's gotten a little cold. You reheat your dinner and then watch a
+      show for the rest of the evening before heading to bed.
+     </text>
+  </panel>
+
+  <panel
+    id="day1DSaladText"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Craving some Mexican Salad, you order some from the local mexican restaurant. You wait
+      about 30 minutes for it to arrive, but it was worth the wait. The salad got a little soggy from
+      the dressing, but that's alright. You enjoy your salad and watch a show before heading to bed for the evening.
+     </text>
+  </panel>
+
+
+  <!--Day 1 Order Dinner-->
+  <panel
+    id="day1DSkipDinner"
+    color="Black"
+    >
+    <text
+      color="White"
+      fontSize="60"
+      position="0 0 0"
+      >Tired from the day, you decide to just cut dinner and relax.
+       You sit down on your couch and pull up Netflix on your TV. You browse the titles, too hungry to really make a decision.
+       After a while you just call it quits and go to bed for the evening.
+     </text>
+  </panel>
+
+<!--Day 1 End Panel -->
+<panel
+  id="day1End"
+  color="Black"
+  >
+  <VerticalLayout>
+  <text
+    color="White"
+    fontSize="60"
+    position="0 0 0"
+    >Congratulations! You made it through the end of the first day. We here at Team 2 sincerely hope that you enjoyed the experience.
+  </text>
+  <text
+       id="Happiness Score"
+       color="White"
+       fontSize="60"
+       position="0 0 0"
+       >Your happiness score was:
+  </text>
+  <text
+       color="White"
+       fontSize="30"
+       position="0 0 0"
+       >You started the day at 0
+  </text>
+  <text
+       id="Nutrition Score"
+       color="White"
+       fontSize="60"
+       position="0 0 0"
+       >Your nutrition score was:
+  </text>
+  <text
+       color="White"
+       fontSize="30"
+       position="0 0 0"
+       >You started the day at 0 for everything. Your days have carbs around 45-65%, protein 10-30%, and fat 20-35% and you should have between 1,600 and 3,000 calories per day depending on height, weight, and activity level.
+  </text>
+  <text
+       id="Money Score"
+       color="White"
+       fontSize="60"
+       position="0 0 0"
+       >Your remaining money was: $
+  </text>
+  <text
+       color="White"
+       fontSize="30"
+       position="0 0 0"
+       >You started the day at $50
+  </text>
+  <HorizontalLayout>
+    <button
+      color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+      position="0 -100 0"
+      height="200"
+      width="200"
+      textColor="White"
+      fontSize="50"
+      onClick="onLoad"
+      ></button>
+
+    <button
+      color="#326273"
+shadow="#C4AF9A"
+shadowDistance="4 -6"
+      position="0 -100 0"
+      height="200"
+      width="200"
+      textColor="White"
+      fontSize="50"
+      onClick="optionsOutcomes"
+      ></button>
+    </HorizontalLayout>
+  </VerticalLayout>
+  <image
+    image="playAgainButtonText"
+    height="50"
+    width="700"
+    rectAlignment="lowerLeft"
+    offsetXY="50 10"
+    ></image>
+  <image
+    image="optionsButtonText"
+    height="50"
+    width="700"
+    rectAlignment="lowerRight"
+    offsetXY="-50 10"
+    ></image>
+</panel>
+
+<panel
+  id="optionsOutcomes"
+  color="Black"
+>
+  <VerticalLayout>
+    <text
+         id="mainText"
+         color="White"
+         fontSize="60"
+         position="0 0 0"
+         >For each meal you had the option to..
+    </text>
+    <text
+         id="topText"
+         color="White"
+         fontSize="60"
+         position="0 0 0"
+         >Cook
+    </text>
+    <text
+         id="middleText"
+         color="White"
+         fontSize="60"
+         position="0 0 0"
+         >Eat out
+    </text>
+    <text
+         id="bottomText"
+         color="White"
+         fontSize="60"
+         position="0 0 0"
+         >Skip Meal
+    </text>
+  </VerticalLayout>
+</panel>
+
+<button
+  id="home"
+  color="#326273"
+  shadow="#C4AF9A"
+  shadowDistance="4 -4"
+  width="50"
+  height="50"
+  rectAlignment="UpperLeft"
+  fontSize="40"
+  textColor="White"
+  onClick="onLoad"
+  ></button>
+
+<image
+  id="home2"
+  image="xText"
+  height="40"
+  width="40"
+  rectAlignment="UpperLeft"
+  offsetXY="5 -5"
+  ></image>
