@@ -1,5 +1,5 @@
 # Semester Long Project
-__Role: Lead Developer__
+__Role: Lead UI/UX Developer__
 
 __What I did__
 - Ran the creation, flow control, and overall look of the new system within Adobe XD
