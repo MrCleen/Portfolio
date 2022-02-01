@@ -12,4 +12,5 @@ We were given 10 weeks to create a "traditional" style game using "traditional" 
 Acid Knockout is a king of the hill style game with a cute-horror art style designed to encompass the basic functionality of traditional games like Super Smash Bros. Ultimate (2018), and Brawlhallo (2014). The art style is retro cute-horror inspired by Mega Man Legacy Collection 2 (2015) and ACA Neo-Geo Metal Slug V (2013). The game is designed around a core gameplay loop that involves a static level with fast-paced waves of spawning enemies and pickups.
 
 You can play Acid Knockout [here](https://gabi-ander.itch.io/acid-knockout)
+
 You can view the Wrap Kit [here](https://drive.google.com/drive/folders/10ZkyKRft48uq245jMRkt3JNGfs66vCVE?usp=sharing)
