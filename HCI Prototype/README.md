@@ -2,6 +2,8 @@
 
 In a team, you will propose a topic, gather data from users to understand the problem, prototype a solution, and then communicate your ideas.
 
+__The final design can be found in the Digital Mockup pdf.__
+
 ## Heart of the Problem
 In the first 8 weeks, you'll focus on exploring the problem space, including interviewing at least 3 users and doing qualitative data analysis. You'll learn what their pain points are and get to the heart of what's causing them. 
 
